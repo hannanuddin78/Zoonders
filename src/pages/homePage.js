@@ -1,4 +1,5 @@
 import React from 'react'
+import BlogPost from '../component/BlogPost'
 import DetailsPage from '../component/DetailsPage'
 import Footer from '../component/Footer'
 import FooterTop from '../component/FooterTop'
@@ -11,6 +12,7 @@ const homePage = () => {
             <HomeHeader />
             <HeaderBottom />
             <DetailsPage />
+            <BlogPost />
             <FooterTop />
             <Footer />
         </>

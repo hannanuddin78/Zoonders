@@ -18,13 +18,15 @@ const DetailsPage = () => {
                         {dtData.map(dt => (
                             <Row key={dt.id}>
                                 <Col md={2}>
-                                    <span className="dtIcon">
-                                        <i className={dt.icon}></i>
-                                    </span>
+                                    <div style={{ marginLeft: "35px", marginBottom: "15px" }}>
+                                        <i className={dt.icon + ' dtIcon'}></i>
+                                    </div>
                                 </Col>
-                                <Col md={8}>
-                                    <h5 className="mb-3">{dt.heading}</h5>
-                                    <p>{dt.parr}</p>
+                                <Col md={10}>
+                                    <div style={{ marginRight: "35px",marginBottom:"15px" }}>
+                                        <h4 className="mb-3">{dt.heading}</h4>
+                                        <p className="dtParr">{dt.parr}</p>
+                                    </div>
                                 </Col>
                             </Row>
                         ))}
