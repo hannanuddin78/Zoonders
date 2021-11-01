@@ -1,14 +1,14 @@
 import React from 'react';
 import { Col, Container, ListGroup, Row } from "react-bootstrap";
-import topImg from "../Image/a1-01 (1) (1).png";
+import topImg from "../Image/1.1.jpg";
 
 const FooterTop = () => {
     return (
         <Container>
             <Row>
-                <Col md={12}>
+                <Col md={12} className="mb-4">
                     <div className="ftImg">
-                        <img style={{ width: "290px" }} src={topImg} alt="" />
+                        <img className="img-fluid" style={{ width: "200px",height:"135px",float:"left" }} src={topImg} alt="" />
                     </div>
                 </Col>
             </Row>

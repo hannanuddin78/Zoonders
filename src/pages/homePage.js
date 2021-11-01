@@ -5,6 +5,7 @@ import Footer from '../component/Footer'
 import FooterTop from '../component/FooterTop'
 import HeaderBottom from '../component/HeaderBottom'
 import HomeHeader from '../component/HomeHeader'
+import Img3D from '../component/Img3D'
 
 const homePage = () => {
     return (
@@ -12,6 +13,7 @@ const homePage = () => {
             <HomeHeader />
             <HeaderBottom />
             <DetailsPage />
+            <Img3D />
             <BlogPost />
             <FooterTop />
             <Footer />
