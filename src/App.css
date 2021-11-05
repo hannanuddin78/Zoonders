@@ -9,14 +9,16 @@
 .bgImgHeader {
     background-image: url("./Image/header-img.jpg");
     max-width: 100%;
-    height: 500px;
+    height: 100%;
     background-size: cover;
     background-repeat:no-repeat;
 }
 
 .txt{
-    text-shadow: rgb(34, 34, 34) 2px 2px 6px;
-    color: rgb(255, 255, 255);
+    color: #f86e23;
+    width: 30% !important;
+    font-family: auto;
+    text-transform: capitalize;
 }
 
 .mbImg img{
@@ -34,80 +36,43 @@
 
 .discover{
     text-align: center;
-    font-weight: 300 !important;
+    font-weight: 700 !important;
+    color: #ffffff;
+    font-size: 2.5rem !important;
 }
 
 .Explore-text{
     font-size: 24px;
     text-align: center;
+    color: #ffffff;
     font-weight: 400 !important;
 }
 
-.apps-google{
-    margin: 0px 0px 0px 13px !important;
+.headCol h1{
+    color: #f86e23;
+    font-size: 2rem;
 }
 
-.apps-google img{
-    width: 230px;
-    height: 78px;
+.headCol h4{
+    color: #409fc9;
 }
 
-
-.dtIcon::before{
-    background-color: #0083ff;
-    border: 1px solid #ffffff;
-    color: #ffffff;
-    width: 64px !important;
-    height: 64px !important;
-    display: flex;
-   justify-content: center;
-   align-items: center;
-   border-radius: 50%;
-   font-size: 30px;
+.headCol p, ul li {
+    color:teal
 }
 
-.dtParr {
-    color: #919191;
-    font-size: 20px;
-}
-
-.fbIc {
-    background-color: #212529;
-    font-size: 18px;
-    padding: 10px;
-    color: white;
-    text-align: center;
-    border-radius: 5px !important;
-}
-
-.icTwIc {
-    background-color: #55acee;
-    font-size: 18px;
-    padding: 10px;
-    color: white;
-    text-align: center;
-    border-radius: 5px !important;
-}
-
-.insIc{
-   background-color: #E1306C;
-    font-size: 18px;
-    padding: 10px; 
-    text-align: center;
-    border-radius: 5px !important;
-}
-
-::before{
-    width: 34px !important;
-    height: 34px !important;
-}
-
-.img3d {
-    background-image: url("https://barkhappy.com/wp-content/uploads/2015/02/barkhappy-videoapp2.jpg");
-    max-width: 100%;
-    min-height: 100%;
+.bgImg3d{
+    width: 100%;
+    height: 600px;
     background-size: cover;
     background-repeat:no-repeat;
+    background-position: center;
+}
+
+.heading3D {
+   top: 50%;
+    /* transform: translate3d(0px, 126px, 0px); */
+    
 }
 
 .cardImgBlog {
@@ -132,6 +97,7 @@
   opacity: 0.5;
   transition: all 0.5s ease;
   background-color: #919191;
+  cursor: pointer;
 }
 
 .cardIcon::before{
@@ -144,4 +110,20 @@
     background-color: blue;
     color: #ffffff;
     font-size: 20px !important;
+}
+
+.hstack {
+    align-items: center !important;
+    align-self: end !important;
+}
+
+.iconEdit{
+    width: 34px !important;
+    height: 34px !important;
+    display: flex;   
+    justify-content: center !important;
+    align-items: center !important;
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 5px;
 }

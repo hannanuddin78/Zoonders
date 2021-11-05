@@ -1,17 +1,20 @@
-import React from 'react'
-import { Col, Container, Row } from 'react-bootstrap'
+import React from 'react';
+import { Col, Container, Row } from 'react-bootstrap';
+import { Parallax } from 'react-parallax';
+import parImg from "../Image/pexels-artem-beliaikin-1485637.jpg";
 
 const Img3D = () => {
     return (
-            <div className="img3d pt-5 pb-5">
-                <Container>
-                    <Row>
-                        <Col md={12}>
-                            <h1 className="mt-4 mb-4 text-uppercase" style={{fontSize:"50px",color:"white", fontWeight:"300"}}>THE MOBILE APP <br /> YOUR DOG HAS <br /> BEEN WAITING FOR!</h1>
-                        </Col>
-                    </Row>
-                </Container>
-            </div>
+        <Parallax className="bgImg3d mb-4" bgImage={parImg} strength={200}>
+            <Container className="mt-5 mb-4" >
+                <Row>
+                    <Col md={12}>
+                        <h1 className="heading3D text-uppercase" style={{ fontSize: "50px", color: "white", fontWeight: "400" }}>Hey! wait for me, <br/> I'm coming..Lets have a walk!</h1>
+                    </Col>
+                </Row>
+            </Container>
+        </Parallax>
+
     )
 }
 

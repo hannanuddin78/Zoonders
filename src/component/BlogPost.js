@@ -16,7 +16,7 @@ const BlogPost = () => {
                 <h3 className="text-center mb-5">Blog Posts</h3>
                 {blogData.map(blDt => (
                     <Col key={blDt.id} md={4} className="">
-                        <Card className="border-0">
+                        <Card className="border-0" style={{ backgroundColor: "#00aff0"}}>
                             {/* <Link to={'/' + blDt.heading + '/'}> */}
                                 <div className="cardImgBlog">
                                     <Card.Img variant="top" src={blDt.img} />
@@ -24,7 +24,7 @@ const BlogPost = () => {
 
                                 </div>
                             {/* </Link> */}
-                                <h4 className="mt-3">{blDt.heading}</h4>
+                            <h4 className="mt-3 " style={{ color: "white" }}>{blDt.heading}</h4>
                                 <p className="mt-3">{blDt.date}</p>
                         </Card>
                     </Col>
