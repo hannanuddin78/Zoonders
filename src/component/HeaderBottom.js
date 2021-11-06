@@ -6,10 +6,9 @@ import { Container, Row, Col } from "react-bootstrap";
 const HeaderBottom = () => {
     return (
         <Container>
-            <Row className="mt-4 mb-3">
+            <Row className="mt-3 mb-3">
                 <Col md={12}>
-                    <h2 className="discover">DISCOVER THE DOG FRIENDLY WORLD AROUND YOU!</h2>
-                    <h4 className="Explore-text"> Explore Dog Friendly Places and Events, Connect with Dog Owners Nearby, Even Lost and Found alerts and Deals!</h4>
+                    <h2 className="discover">The Future Starts Today</h2>
                 </Col>
             </Row>
         </Container>

@@ -7,22 +7,22 @@ import { faFacebookF, faTwitter, faInstagramSquare } from '@fortawesome/free-bra
 const FooterTop = () => {
     return (
         <Container>
-            <Row>
-                <Col md={6} className="mb-4">
+            <Row className="mb-4 mt-4">
+                <Col md={6}>
                     <div className="ftImg">
                         <img className="img-fluid" style={{ width: "200px", height: "135px", float: "left" }} src={topImg} alt="" />
                     </div>
                 </Col>
-                <Col md={6} className="d-flex justify-content-end align-items-end mb-4">
-                            <Stack direction="horizontal" gap={3}>
-                        <div className="bg-primary iconEdit">
-                                    <FontAwesomeIcon icon={faFacebookF} />
-                                </div>
-                        <div className="bg-info iconEdit">
-                            <FontAwesomeIcon icon={faTwitter} />
-                                </div>
-                        <div className="bg-danger iconEdit">
-                            <FontAwesomeIcon icon={faInstagramSquare} />
+                <Col md={6} className="d-flex justify-content-end align-items-end">
+                            <Stack direction="horizontal" gap={4}>
+                                <div className="bg-primary iconEdit">
+                                        <FontAwesomeIcon icon={faFacebookF} />
+                                    </div>
+                                <div className="bg-info iconEdit">
+                                    <FontAwesomeIcon icon={faTwitter} />
+                                        </div>
+                                <div className="bg-danger iconEdit">
+                                    <FontAwesomeIcon icon={faInstagramSquare} />
                                 </div>
                             </Stack>
                     

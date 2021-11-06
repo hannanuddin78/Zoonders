@@ -1,10 +1,10 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css");
 
 
-/* .code {
+.code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-} */
+}
 
 .bgImgHeader {
     background-image: url("./Image/header-img.jpg");
@@ -17,8 +17,8 @@
 .txt{
     color: #f86e23;
     width: 30% !important;
-    font-family: auto;
     text-transform: capitalize;
+    padding-right: 20px !important;
 }
 
 .mbImg img{
@@ -57,27 +57,34 @@
     color: #409fc9;
 }
 
-.headCol p, ul li {
-    color:teal
+.headCol p {
+    color:teal;
+    margin-bottom: 20px;
+    line-height: 30px;
 }
 
-.bgImg3d{
-    width: 100%;
-    height: 600px;
+.headCol ul li {
+    color:teal;
+    margin-bottom: 10px;
+}
+
+.bgImg3d img{
+    max-width: 100%;
+    height: 100%;
     background-size: cover;
     background-repeat:no-repeat;
-    background-position: center;
 }
 
 .heading3D {
-   top: 50%;
-    /* transform: translate3d(0px, 126px, 0px); */
-    
+    font-size: 50px; 
+    color: white;
+    font-weight: 700;
 }
 
 .cardImgBlog {
   position: relative;
 }
+
 .cardImgBlog .cardIcon {
   width: 100% ;
   height: 100%;
@@ -126,4 +133,10 @@
     color: #ffffff;
     font-size: 20px;
     border-radius: 5px;
+}
+
+.footer-link-edit a {
+    color: #ffffff !important;
+    text-decoration: none !important;
+    margin-right: 20px;
 }
