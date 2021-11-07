@@ -3,7 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap'
 
 const PolicyDetails = () => {
     return (
-        <div style={{ backgroundColor:"#A3E4D7"}}>
+        <div style={{ backgroundColor:"black"}}>
             <Container>
                 <Row className="pt-5 pb-4">
                     <Col sm={12} className="headCol">

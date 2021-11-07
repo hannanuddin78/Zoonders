@@ -3,7 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap'
 
 const AboutDetails = () => {
     return (
-        <div style={{ backgroundColor: "#AAB7B8" }}>
+        <div style={{ backgroundColor: "black" }}>
             <Container>
                 <Row className="pt-5 pb-4">
                     <Col sm={12} className="headCol">
